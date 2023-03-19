@@ -18,10 +18,5 @@ const darkTheme = createTheme({
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
-   <Routes>
-    <Route path="/login" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Login/></ThemeProvider>}></Route>
-    <Route path="/student" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Questions/></ThemeProvider>}></Route>
-    <Route path="/register" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Register/></ThemeProvider>}></Route>
-    <Route path="/tutor" element={<ThemeProvider theme={darkTheme}><CssBaseline/><QuestionsT/></ThemeProvider>}></Route>
-  </Routes>
+   <Login />
   </BrowserRouter>);
