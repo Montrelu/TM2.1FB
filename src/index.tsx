@@ -1,5 +1,5 @@
 
-
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Questions from "./components/Questions"
@@ -17,5 +17,4 @@ const darkTheme = createTheme({
 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <Login />
-  );
+  <ThemeProvider theme={darkTheme}><CssBaseline/><Login/></ThemeProvider>);
