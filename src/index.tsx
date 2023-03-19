@@ -2,10 +2,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Questions from "./components/Questions"
-import QuestionsT from "./components/QuestionsT"
-import Register from "./components/Register"
-import Login from './components/Login'
+import App from './App'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -17,4 +14,4 @@ const darkTheme = createTheme({
 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <ThemeProvider theme={darkTheme}><CssBaseline/><Login/></ThemeProvider>);
+  <App/>);
