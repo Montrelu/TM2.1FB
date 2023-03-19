@@ -17,6 +17,5 @@ const darkTheme = createTheme({
 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
-   <Login />
-  </BrowserRouter>);
+  <Login />
+  );
