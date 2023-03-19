@@ -1,4 +1,4 @@
-ame: Firebase Deployment
+name: Firebase Deployment
 on:
   push:
     branches:
