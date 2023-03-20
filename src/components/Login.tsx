@@ -74,7 +74,7 @@ export default function Login() {
         </Card>
         <Card sx={{width:400, marginTop:1, height:90}}>
             <CardContent>
-                <p style={{color:"rgb(200, 200, 200)", textAlign:"center"}}>Not registered? <a href="#smt" style={{textDecoration:"none", color:"rgb(0, 76, 255)", textAlign:"center"}}>Click here</a></p>
+                <p style={{color:"rgb(200, 200, 200)", textAlign:"center"}}>Not registered? <a href="/register" style={{textDecoration:"none", color:"rgb(0, 76, 255)", textAlign:"center"}}>Click here</a></p>
             </CardContent>
         </Card>
      </Grid>
