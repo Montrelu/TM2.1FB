@@ -63,7 +63,7 @@ export default function Questions() {
                         >
                         
                         <Button variant="contained" color="primary" sx={{ height: 40 }}>
-                            Help a student
+                            Help a student out
                         </Button>
 
                         </Box>
