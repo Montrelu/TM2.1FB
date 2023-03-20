@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/login" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Login/></ThemeProvider>}/>
         <Route path="/register" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Register/></ThemeProvider>}/>
         <Route path="/student" element={<ThemeProvider theme={darkTheme}><CssBaseline/><Questions/></ThemeProvider>}/>
-        <Route path="/login" element={<ThemeProvider theme={darkTheme}><CssBaseline/><QuestionsT/></ThemeProvider>}/>
+        <Route path="/tutor" element={<ThemeProvider theme={darkTheme}><CssBaseline/><QuestionsT/></ThemeProvider>}/>
       </Routes>
       </BrowserRouter>  
     );
